@@ -1,0 +1,120 @@
+﻿.cuerpof {
+    font-family: Bahnschrift SemiBold;
+    font-weight: 400;
+    background-color: #011d41;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+    .logo img {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    .logo p {
+        text-align: center;
+    }
+
+
+
+.footer-text {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: #fdd214;
+    margin-bottom: 15px;
+}
+
+.cf {
+    padding: 35px 0;
+}
+
+    .cf .social {
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+        .cf .social a {
+            font-size: 24px;
+            color: white;
+            width: 40px;
+            height: 40px;
+            line-height: 38px;
+            display: inline-block;
+            text-align: center;
+            margin: 0 8px;
+            opacity: 0.75;
+        }
+
+            .cf .social a:hover {
+                opacity: 0.9;
+            }
+
+    .cf ul {
+        list-style: none;
+        font-size: 15px;
+        line-height: 1.6;
+        text-align: center;
+    }
+
+        .cf ul a {
+            color: inherit;
+            text-decoration: none;
+            opacity: 0.8;
+        }
+
+        .cf ul li {
+            display: inline-block;
+        }
+
+            .cf ul li a:hover {
+                opacity: 1;
+            }
+
+.list {
+    list-style: none;
+    padding: 0;
+    color: white;
+}
+
+    .list li {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 10px;
+    }
+
+        .list li span {
+            display: flex;
+        }
+
+.contact-mediaQuery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+@media screen and (min-width:900px) {
+    .contact-mediaQuery {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .social {
+        padding-right: 17rem;
+    }
+}
